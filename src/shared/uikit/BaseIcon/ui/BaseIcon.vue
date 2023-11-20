@@ -5,7 +5,7 @@ const props = defineProps<{
   icon: IconEnum;
 }>();
 
-const src = `/src/shared/icons/${props.icon}.svg`;
+const src = `/icons/${props.icon}.svg`;
 const alt = `Иконка ${props.icon}`;
 </script>
 
