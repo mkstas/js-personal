@@ -10,4 +10,7 @@ export enum IconEnum {
   vite = 'vite',
   git = 'git',
   github = 'github',
+  firebase = 'firebase',
+  nodejs = 'nodejs',
+  mongo = 'mongo',
 }
