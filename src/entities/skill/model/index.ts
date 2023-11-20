@@ -12,3 +12,7 @@ export const skills: IconEnum[] = [
   IconEnum.git,
   IconEnum.firebase,
 ];
+
+export const isSkillsExist = (): Boolean => {
+  return !!(skills.length > 0);
+};

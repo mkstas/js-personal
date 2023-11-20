@@ -64,3 +64,7 @@ export const projects: ProjectType[] = [
     ],
   },
 ];
+
+export const isProjectsExist = (): Boolean => {
+  return !!(projects.length > 0);
+};
