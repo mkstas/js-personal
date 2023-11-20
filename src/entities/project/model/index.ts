@@ -1,38 +1,38 @@
-import { IconEnum } from '@/shared/typicode';
+import { IconEnum, ProjectType } from '@/shared/typicode';
 
-export const projects = [
+export const projects: ProjectType[] = [
   {
     name: 'Go Scooter Pass',
     url: 'https://github.com/mkstas/vite-go-scooter-pass',
     technologies: [
+      IconEnum.vite,
       IconEnum.html,
       IconEnum.css,
       IconEnum.javaScript,
       IconEnum.typeScript,
-      IconEnum.vite,
     ],
   },
   {
     name: 'Simple',
     url: 'https://github.com/mkstas/vite-simple',
     technologies: [
+      IconEnum.vite,
       IconEnum.html,
       IconEnum.css,
       IconEnum.javaScript,
       IconEnum.typeScript,
-      IconEnum.vite,
     ],
   },
   {
     name: 'Rubicko',
     url: 'https://github.com/mkstas/vue-rubicko',
     technologies: [
+      IconEnum.vite,
+      IconEnum.vue,
+      IconEnum.pinia,
       IconEnum.css,
       IconEnum.tailwind,
       IconEnum.javaScript,
-      IconEnum.vue,
-      IconEnum.pinia,
-      IconEnum.vite,
       IconEnum.nodejs,
       IconEnum.mongo,
     ],
@@ -41,13 +41,13 @@ export const projects = [
     name: 'Task Tracker',
     url: 'https://github.com/mkstas/vue-task-tracker',
     technologies: [
+      IconEnum.vite,
+      IconEnum.vue,
+      IconEnum.pinia,
       IconEnum.css,
       IconEnum.tailwind,
       IconEnum.javaScript,
       IconEnum.typeScript,
-      IconEnum.vue,
-      IconEnum.pinia,
-      IconEnum.vite,
       IconEnum.firebase,
     ],
   },
@@ -55,12 +55,12 @@ export const projects = [
     name: 'Personal',
     url: 'https://github.com/mkstas/vue-personal',
     technologies: [
+      IconEnum.vite,
+      IconEnum.vue,
       IconEnum.css,
       IconEnum.tailwind,
       IconEnum.javaScript,
       IconEnum.typeScript,
-      IconEnum.vue,
-      IconEnum.vite,
     ],
   },
 ];

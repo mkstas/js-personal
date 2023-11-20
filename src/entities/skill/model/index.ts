@@ -1,6 +1,6 @@
 import { IconEnum } from '@/shared/typicode';
 
-export const skills = [
+export const skills: IconEnum[] = [
   IconEnum.html,
   IconEnum.css,
   IconEnum.sass,

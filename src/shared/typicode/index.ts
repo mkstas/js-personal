@@ -1,1 +1,2 @@
-export * from './icon/Icon.types';
+export * from './icon';
+export * from './project';
