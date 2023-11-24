@@ -12,12 +12,21 @@ defineProps<{
     <div class="flex flex-wrap items-center gap-6 mb-4">
       <h3 class="text-xl text-white">{{ project.name }}</h3>
       <a
+        v-if="project.urlGithub"
         class="flex items-center gap-2 text-white hover:underline"
-        :href="project.url"
+        :href="project.urlGithub"
         target="_blank"
       >
         <BaseIcon :icon="IconEnum.github" class="w-6" />
         <span class="text-xl">GitHub</span>
+      </a>
+      <a
+        class="flex items-center gap-2 text-white hover:underline"
+        :href="project.urlHtpp"
+        target="_blank"
+      >
+        <BaseIcon :icon="IconEnum.web" class="w-6" />
+        <span class="text-xl">site</span>
       </a>
     </div>
     <ul class="flex flex-wrap gap-2">

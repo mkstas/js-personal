@@ -13,4 +13,5 @@ export enum IconEnum {
   firebase = 'firebase',
   nodejs = 'nodejs',
   mongo = 'mongo',
+  web = 'web',
 }
