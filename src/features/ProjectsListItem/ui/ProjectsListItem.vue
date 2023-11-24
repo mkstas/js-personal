@@ -21,6 +21,7 @@ defineProps<{
         <span class="text-xl">GitHub</span>
       </a>
       <a
+        v-if="project.urlHtpp"
         class="flex items-center gap-2 text-white hover:underline"
         :href="project.urlHtpp"
         target="_blank"
