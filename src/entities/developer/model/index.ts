@@ -2,7 +2,7 @@ import { DeveloperType } from '@/shared/typicode';
 
 export const developer: DeveloperType = {
   name: 'Макаров Станислав',
-  specialization: 'frontend - разработка',
+  specialization: 'Веб - разработка',
   githubUrl: 'https://github.com/mkstas',
 };
 
