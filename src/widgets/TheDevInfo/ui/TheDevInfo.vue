@@ -1,6 +1,7 @@
 <script lang="ts" setup>
 import { IconEnum } from '@/shared/typicode';
 import { BaseIcon } from '@/shared/uikit';
+
 import { developer } from '@/entities/developer';
 </script>
 

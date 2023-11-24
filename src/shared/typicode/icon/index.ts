@@ -14,4 +14,9 @@ export enum IconEnum {
   nodejs = 'nodejs',
   mongo = 'mongo',
   web = 'web',
+  php = 'php',
+  webpack = 'webpack',
+  laravel = 'laravel',
+  react = 'react',
+  mysql = 'mysql',
 }

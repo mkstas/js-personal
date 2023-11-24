@@ -9,8 +9,8 @@ defineProps<{
 
 <template>
   <li
-    class="flex items-center justify-center w-20 h-20 shadow-xl rounded-full bg-slate-600"
+    class="flex items-center justify-center w-16 h-16 shadow-xl rounded-full bg-slate-600"
   >
-    <BaseIcon :icon="skill" class="h-10 w-10" />
+    <BaseIcon :icon="skill" class="h-8 w-8" />
   </li>
 </template>

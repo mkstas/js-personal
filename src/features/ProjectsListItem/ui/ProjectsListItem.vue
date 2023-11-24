@@ -17,8 +17,8 @@ defineProps<{
         :href="project.urlGithub"
         target="_blank"
       >
-        <BaseIcon :icon="IconEnum.github" class="w-6" />
-        <span class="text-xl">GitHub</span>
+        <BaseIcon :icon="IconEnum.github" class="w-4" />
+        <span class="text-base">GitHub</span>
       </a>
       <a
         v-if="project.urlHtpp"
@@ -26,17 +26,17 @@ defineProps<{
         :href="project.urlHtpp"
         target="_blank"
       >
-        <BaseIcon :icon="IconEnum.web" class="w-6" />
-        <span class="text-xl">site</span>
+        <BaseIcon :icon="IconEnum.web" class="w-4" />
+        <span class="text-base">site</span>
       </a>
     </div>
     <ul class="flex flex-wrap gap-2">
       <li
-        class="flex items-center justify-center w-12 h-12 shadow-xl rounded-full bg-white"
+        class="flex items-center justify-center w-10 h-10 shadow-xl rounded-full bg-white"
         v-for="technology in project.technologies"
         :key="technology"
       >
-        <BaseIcon :icon="technology" class="w-6 h-6" />
+        <BaseIcon :icon="technology" class="w-5 h-5" />
       </li>
     </ul>
   </li>

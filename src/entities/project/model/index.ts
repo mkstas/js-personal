@@ -1,6 +1,19 @@
 import { IconEnum, ProjectType } from '@/shared/typicode';
 
-export const projects: ProjectType[] = [
+export const projectsNew: ProjectType[] = [
+  {
+    name: 'Personal',
+    urlGithub: 'https://github.com/mkstas/vue-personal',
+    urlHtpp: 'https://vue-personal.vercel.app/',
+    technologies: [
+      IconEnum.vite,
+      IconEnum.vue,
+      IconEnum.css,
+      IconEnum.tailwind,
+      IconEnum.javaScript,
+      IconEnum.typeScript,
+    ],
+  },
   {
     name: 'Go Scooter Pass',
     urlGithub: 'https://github.com/mkstas/vite-go-scooter-pass',
@@ -14,6 +27,23 @@ export const projects: ProjectType[] = [
       IconEnum.typeScript,
     ],
   },
+  {
+    name: 'Task Tracker',
+    urlGithub: 'https://github.com/mkstas/vue-task-tracker',
+    technologies: [
+      IconEnum.vite,
+      IconEnum.vue,
+      IconEnum.pinia,
+      IconEnum.css,
+      IconEnum.tailwind,
+      IconEnum.javaScript,
+      IconEnum.typeScript,
+      IconEnum.firebase,
+    ],
+  },
+];
+
+export const projectsOld: ProjectType[] = [
   {
     name: 'Simple',
     urlGithub: 'https://github.com/mkstas/vite-simple',
@@ -42,23 +72,24 @@ export const projects: ProjectType[] = [
     ],
   },
   {
-    name: 'Task Tracker',
-    urlGithub: 'https://github.com/mkstas/vue-task-tracker',
+    name: 'Turtle (client)',
+    urlGithub: 'https://github.com/mkstas/react-turtle',
     technologies: [
-      IconEnum.vite,
-      IconEnum.vue,
-      IconEnum.pinia,
+      IconEnum.react,
       IconEnum.css,
-      IconEnum.tailwind,
+      IconEnum.sass,
       IconEnum.javaScript,
-      IconEnum.typeScript,
-      IconEnum.firebase,
     ],
   },
   {
-    name: 'Personal',
-    urlGithub: 'https://github.com/mkstas/vue-personal',
-    urlHtpp: 'https://vue-personal.vercel.app/',
+    name: 'Turtle (server)',
+    urlGithub: 'https://github.com/mkstas/php-turtle',
+    technologies: [IconEnum.php, IconEnum.mysql],
+  },
+  {
+    name: 'Calculator',
+    urlGithub: 'https://github.com/mkstas/vue-calculator',
+    urlHtpp: 'https://vue-calculator-neon.vercel.app/',
     technologies: [
       IconEnum.vite,
       IconEnum.vue,
@@ -68,8 +99,17 @@ export const projects: ProjectType[] = [
       IconEnum.typeScript,
     ],
   },
+  {
+    name: 'Printy',
+    urlGithub: 'https://github.com/mkstas/laravel-printy',
+    technologies: [IconEnum.laravel, IconEnum.css, IconEnum.mysql],
+  },
 ];
 
-export const isProjectsExist = (): Boolean => {
-  return !!(projects.length > 0);
+export const isNewProjectsExist = (): Boolean => {
+  return !!(projectsNew.length > 0);
+};
+
+export const isOldProjectsExist = (): Boolean => {
+  return !!(projectsOld.length > 0);
 };
