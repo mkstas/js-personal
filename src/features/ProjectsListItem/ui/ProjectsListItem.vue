@@ -9,7 +9,7 @@ defineProps<{
 
 <template>
   <li class="py-4 px-6 shadow-xl rounded-2xl bg-slate-600">
-    <div class="flex flex-wrap items-center gap-6 mb-4">
+    <div class="flex flex-wrap items-center gap-x-6 gap-y-2 mb-4">
       <h3 class="text-xl text-white">{{ project.name }}</h3>
       <a
         v-if="project.urlGithub"
