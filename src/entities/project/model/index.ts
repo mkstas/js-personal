@@ -72,6 +72,19 @@ export const projectsOld: ProjectType[] = [
     ],
   },
   {
+    name: 'Calculator',
+    urlGithub: 'https://github.com/mkstas/vue-calculator',
+    urlHtpp: 'https://vue-calculator-neon.vercel.app/',
+    technologies: [
+      IconEnum.vite,
+      IconEnum.vue,
+      IconEnum.css,
+      IconEnum.tailwind,
+      IconEnum.javaScript,
+      IconEnum.typeScript,
+    ],
+  },
+  {
     name: 'Turtle (client)',
     urlGithub: 'https://github.com/mkstas/react-turtle',
     technologies: [
@@ -87,22 +100,19 @@ export const projectsOld: ProjectType[] = [
     technologies: [IconEnum.php, IconEnum.mysql],
   },
   {
-    name: 'Calculator',
-    urlGithub: 'https://github.com/mkstas/vue-calculator',
-    urlHtpp: 'https://vue-calculator-neon.vercel.app/',
-    technologies: [
-      IconEnum.vite,
-      IconEnum.vue,
-      IconEnum.css,
-      IconEnum.tailwind,
-      IconEnum.javaScript,
-      IconEnum.typeScript,
-    ],
-  },
-  {
     name: 'Printy',
     urlGithub: 'https://github.com/mkstas/laravel-printy',
     technologies: [IconEnum.laravel, IconEnum.css, IconEnum.mysql],
+  },
+  {
+    name: 'Teacher',
+    urlGithub: 'https://github.com/mkstas/laravel-teacher',
+    technologies: [
+      IconEnum.laravel,
+      IconEnum.css,
+      IconEnum.javaScript,
+      IconEnum.mysql,
+    ],
   },
 ];
 
