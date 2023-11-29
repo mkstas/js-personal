@@ -8,6 +8,7 @@ export const skills: IconEnum[] = [
   IconEnum.javaScript,
   IconEnum.typeScript,
   IconEnum.vue,
+  IconEnum.react,
   IconEnum.vite,
   IconEnum.git,
   IconEnum.firebase,
