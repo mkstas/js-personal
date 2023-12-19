@@ -2,16 +2,17 @@ import { IconEnum, ProjectType } from '@/shared/typicode';
 
 export const projectsNew: ProjectType[] = [
   {
-    name: 'Personal',
-    urlGithub: 'https://github.com/mkstas/vue-personal',
-    urlHtpp: 'https://vue-personal.vercel.app/',
+    name: 'Task Tracker',
+    urlGithub: 'https://github.com/mkstas/vue-task-tracker',
     technologies: [
       IconEnum.vite,
       IconEnum.vue,
+      IconEnum.pinia,
       IconEnum.css,
       IconEnum.tailwind,
       IconEnum.javaScript,
       IconEnum.typeScript,
+      IconEnum.firebase,
     ],
   },
   {
@@ -28,17 +29,16 @@ export const projectsNew: ProjectType[] = [
     ],
   },
   {
-    name: 'Task Tracker',
-    urlGithub: 'https://github.com/mkstas/vue-task-tracker',
+    name: 'Personal',
+    urlGithub: 'https://github.com/mkstas/vue-personal',
+    urlHtpp: 'https://vue-personal.vercel.app/',
     technologies: [
       IconEnum.vite,
       IconEnum.vue,
-      IconEnum.pinia,
       IconEnum.css,
       IconEnum.tailwind,
       IconEnum.javaScript,
       IconEnum.typeScript,
-      IconEnum.firebase,
     ],
   },
 ];

@@ -20,12 +20,12 @@ import { TheProjectsList } from '@/widgets/TheProjectsList';
     <TheProjectsList
       v-if="isNewProjectsExist()"
       :projects="projectsNew"
-      title="Новые личные проекты"
+      title="Наилучшие работы"
     />
     <TheProjectsList
       v-if="isOldProjectsExist()"
       :projects="projectsOld"
-      title="Старые личные проекты"
+      title="Все работы"
     />
   </main>
 </template>
