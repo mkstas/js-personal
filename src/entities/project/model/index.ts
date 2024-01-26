@@ -2,17 +2,14 @@ import { IconEnum, ProjectType } from '@/shared/typicode';
 
 export const projectsNew: ProjectType[] = [
   {
-    name: 'Task Tracker',
-    urlGithub: 'https://github.com/mkstas/vue-task-tracker',
+    name: 'Todo App',
+    urlGithub: 'https://github.com/mkstas/vue-todo-app',
     technologies: [
       IconEnum.vite,
       IconEnum.vue,
-      IconEnum.pinia,
-      IconEnum.css,
       IconEnum.tailwind,
       IconEnum.javaScript,
       IconEnum.typeScript,
-      IconEnum.firebase,
     ],
   },
   {
@@ -22,7 +19,6 @@ export const projectsNew: ProjectType[] = [
     technologies: [
       IconEnum.vite,
       IconEnum.html,
-      IconEnum.css,
       IconEnum.sass,
       IconEnum.javaScript,
       IconEnum.typeScript,
@@ -35,7 +31,6 @@ export const projectsNew: ProjectType[] = [
     technologies: [
       IconEnum.vite,
       IconEnum.vue,
-      IconEnum.css,
       IconEnum.tailwind,
       IconEnum.javaScript,
       IconEnum.typeScript,
@@ -51,7 +46,6 @@ export const projectsOld: ProjectType[] = [
     technologies: [
       IconEnum.vite,
       IconEnum.html,
-      IconEnum.css,
       IconEnum.sass,
       IconEnum.javaScript,
       IconEnum.typeScript,
@@ -82,36 +76,6 @@ export const projectsOld: ProjectType[] = [
       IconEnum.tailwind,
       IconEnum.javaScript,
       IconEnum.typeScript,
-    ],
-  },
-  {
-    name: 'Turtle (client)',
-    urlGithub: 'https://github.com/mkstas/react-turtle',
-    technologies: [
-      IconEnum.react,
-      IconEnum.css,
-      IconEnum.sass,
-      IconEnum.javaScript,
-    ],
-  },
-  {
-    name: 'Turtle (server)',
-    urlGithub: 'https://github.com/mkstas/php-turtle',
-    technologies: [IconEnum.php, IconEnum.mysql],
-  },
-  {
-    name: 'Printy',
-    urlGithub: 'https://github.com/mkstas/laravel-printy',
-    technologies: [IconEnum.laravel, IconEnum.css, IconEnum.mysql],
-  },
-  {
-    name: 'Teacher',
-    urlGithub: 'https://github.com/mkstas/laravel-teacher',
-    technologies: [
-      IconEnum.laravel,
-      IconEnum.css,
-      IconEnum.javaScript,
-      IconEnum.mysql,
     ],
   },
 ];
