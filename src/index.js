@@ -1,3 +1,3 @@
 import './index.css';
 
-particlesJS.load('particles-js', 'src/particlesjs-config.json');
+particlesJS.load('particles-js', '/particlesjs-config.json');
