@@ -16,3 +16,15 @@ npm install
 ```sh
 npm run dev
 ```
+
+### Сборка готового проекта
+
+```sh
+npm run build
+```
+
+### Предпросмотр готового проекта
+
+```sh
+npm run preview
+```
