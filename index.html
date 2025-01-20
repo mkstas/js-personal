@@ -4,18 +4,14 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,400..700&display=swap"
       rel="stylesheet"
     />
     <title>Personal</title>
   </head>
-  <body class="text-slate-800 bg-slate-100 bg-[url(/images/bg.jpg)] bg-cover p-2">
-    <header
-      class="grid grid-cols-[1fr_3fr_1fr] items-center py-1 px-2 border border-slate-300 rounded-md bg-white"
-    >
+  <body class="p-2 text-slate-800 bg-neutral-800">
+    <header class="grid grid-cols-[1fr_3fr_1fr] items-center py-1 px-2 rounded-md bg-white">
       <img class="size-5" src="/icons/system/atom.svg" alt="launch icon" />
       <div id="date" class="text-center font-medium"></div>
       <div class="flex justify-end items-center gap-2">
@@ -23,7 +19,40 @@
         <img class="size-5" src="/icons/system/power.svg" alt="power icon" />
       </div>
     </header>
-    <main id="main" class="max-w-7xl mx-auto pt-24 space-y-12"></main>
-    <script type="module" src="/src/main.ts"></script>
+    <main class="pt-8 sm:pt-24">
+      <div id="container" class="max-w-7xl mx-auto space-y-8">
+        <div class="p-2 max-w-xl min-h-48 bg-white rounded-md">
+          <div class="flex gap-1">
+            <div class="size-3 bg-red-500 rounded-full"></div>
+            <div class="size-3 bg-yellow-400 rounded-full"></div>
+            <div class="size-3 bg-green-500 rounded-full"></div>
+          </div>
+          <div class="mt-4">
+            <h1 id="user_message" class="text-4xl font-bold"></h1>
+            <a id="user_github" href="" class="flex gap-2 mt-3 text-blue-600 hover:underline">
+              <span class="text-xl">Go to my GitHub</span>
+              <img class="w-6" src="/icons/system/github.svg" alt="github icon" />
+            </a>
+          </div>
+        </div>
+        <div class="p-2 max-w-xl min-h-48 bg-white rounded-md">
+          <div class="flex gap-1">
+            <div class="size-3 bg-red-500 rounded-full"></div>
+            <div class="size-3 bg-yellow-400 rounded-full"></div>
+            <div class="size-3 bg-green-500 rounded-full"></div>
+          </div>
+          <div id="skills" class="flex flex-wrap gap-4 mt-4"></div>
+        </div>
+        <div class="p-2 max-w-xl min-h-48 bg-white rounded-md">
+          <div class="flex gap-1">
+            <div class="size-3 bg-red-500 rounded-full"></div>
+            <div class="size-3 bg-yellow-400 rounded-full"></div>
+            <div class="size-3 bg-green-500 rounded-full"></div>
+          </div>
+          <div id="projects" class="grid gap-1 mt-4"></div>
+        </div>
+      </div>
+    </main>
+    <script type="module" src="/src/app/main.ts"></script>
   </body>
 </html>
